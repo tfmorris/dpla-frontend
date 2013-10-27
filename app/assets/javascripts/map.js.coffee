@@ -169,6 +169,7 @@ DPLAMap = L.Class.extend
           <h4><a href="#{ item_href }" target="_blank">#{ item_title }</a></h4>
           <p><span> #{ point.creator }</span></p>
           <a class="ViewObject" href="#{ point.url }" target="_blank">View Object <span class="icon-view-object" aria-hidden="true"></span></a>
+          <a class="ReportProblem" href="javascript:reportProblem()" target="_blank">Report Problem <span class="icon-arrow-thin-right" aria-hidden="true"></span></a>
         """
       if point.thumbnail
         default_image = switch

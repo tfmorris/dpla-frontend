@@ -2427,6 +2427,18 @@ aside h5 { margin: 5px 0 1em; }
 	color: inherit;
 }
 
+.ReportProblem {
+    font: 0.600em/1em 'source_sans_pro_regular', arial, sans-serif;
+    color: grey;
+    display: block;
+}
+.ReportProblem:hover {
+	text-decoration: none;
+}
+.ReportProblem span {
+	color: inherit;
+}
+
 .searchLeft {
     float: left;
     width: 70%;

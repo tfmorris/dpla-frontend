@@ -36,6 +36,10 @@
   a {
     color: #dd4e00;
 
+   &.ReportProblem {
+    color: #818285;
+   }
+
     &.leaflet-popup-close-button {
       position: absolute;
       right: 12px;

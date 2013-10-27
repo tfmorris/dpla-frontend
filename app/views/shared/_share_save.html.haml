@@ -1,5 +1,10 @@
 %ul.shareSave
   %li.btn
+    %a Report...
+    %ul
+      %li Error
+      %li Inappropriate
+  %li.btn
     - if 'search' == params[:controller]
       = link_to "Save", saved_searches_path(params.except(:controller, :action)), method: :post
     - elsif 'items' == params[:controller]

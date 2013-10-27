@@ -6,7 +6,7 @@ module ItemsHelper
 
     if value.present?
       content_tag(:ul) do
-        content_tag(:li, content_tag(:h6, title)) +
+        content_tag(:li, content_tag(:h6, title) + content_tag(:a, "Report Problem", {:class => "ReportProblem", :href => "javascript:reportProblem()"})) +
         if block_given?
           content_tag(:li) do
             block.call

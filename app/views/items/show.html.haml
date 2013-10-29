@@ -53,6 +53,7 @@
       = item_field :rights
       = item_field :url, title: 'URL' do
         = link_to @item.url, @item.url, target: :_blank
+      = item_field 'Report problem'
   %aside
     - # is_location_present = @item.location.present? && @item.coordinates.present?
     - is_date_present     = @item.created_date.present? && @item.year.present?
